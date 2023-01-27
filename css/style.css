@@ -1,0 +1,101 @@
+:root{
+    --blanco: #FFFFFF;
+    --ocuro: #212121;
+    --primario: #FFC107;
+    --segundario:#0097A7;
+    --gris: #757575;
+}
+h1 {
+    text-align: center;
+    text-align: center;
+    color: brown;
+    font-size: 3.8rem;
+
+}
+.contenedor{
+    width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.navegacion-principal {
+    background-color: var(--segundario);
+
+}
+.navegacion-principal a{
+    background-color: var(--primario);
+}
+
+
+.nav-bg {
+    background-color: var(--segundario);
+}
+
+.navegacion-principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a{
+    background-color: var(--segundario);
+    text-decoration: none;
+    padding-top: 2rem;
+    
+}
+
+.navegacion-principal a:hover{
+    background-color:var(--primario);
+    color: var(--ocuro);
+}
+
+@media (min-width: 480px ) {
+    body {
+        background-color: var(--segundario);
+    }
+    
+}
+.hero{
+    background-image: url(../img/estrellas-cielo.gif);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 400px;
+    padding: 8px;
+    position: relative;
+}
+.html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.hero h2 {
+    position: absolute;
+    background-color: rgba(07, 50, 09, .7);
+    background-color: rgb(07 50 09 / 70%);
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+
+}
+.hero h1,
+.hero p {
+    color: var(--blanco);
+
+
+}
+
+.boton a {
+    background-color: var(--segundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+
+}
+
+
+
